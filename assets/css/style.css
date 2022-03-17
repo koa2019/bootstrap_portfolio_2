@@ -1,0 +1,169 @@
+body {
+    background: url("../images/black_green-coding_background.jpg");
+    background-blend-mode: darken;
+    background-color: black;  
+}
+* {
+    color:rgba(0, 255, 0, 0.753);
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 255, 0, 0.753);
+}
+.containerPortfolio {
+    /*background: url("../images/concrete_seamless.png");   */
+    background-color: black;  
+    max-width:960px;
+   
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+  /*  padding-right: 2.5rem; */ 
+    padding-left: 1.5rem;  
+  
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+   /*  margin-left: auto;
+    margin-right: auto;
+    */
+}
+.containerAbout {
+    /*background: url("../images/concrete_seamless.png");   */
+    background-color: black;  
+    max-width:760px;
+ 
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem; 
+      
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  /*  margin-left: auto;
+    margin-right: auto;
+    */
+}
+.containerContact {
+    background-color: black;  
+    max-width:560px;
+ 
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+      
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+}
+.navbar {
+  background-color: black;   
+}
+.btn:hover {
+    opacity: 0.70;
+  }
+
+a.navbar-brand.p-4  {
+    color: rgba(0, 255, 0, 0.753);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 255, 0, 0.753);
+}
+
+hr {
+    color: rgb(95, 148, 15);
+}
+.btn {
+    background-color:rgb(95, 148, 15);
+    border-color: rgb(95, 148, 15);
+    float: right;
+}
+
+.card img {
+    width: 220px;
+    height: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(95, 148, 15);
+    margin-left: 15px;
+    background-color: white;
+}
+.card {
+    background-color: rgb(34, 37, 33);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 255, 0, 0.753);
+}
+.cardImg {
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem; 
+    margin-left: 1rem;
+}
+.form-group {
+      width: 100%;
+}
+hr {
+    margin:0;
+    padding:0;
+}
+
+  /*.box1 figcaption{
+    
+    font-size: 20px;  
+    height: 60px;
+    width: 300px;
+    background-color: teal;
+    color:white;
+    position: absolute;
+    top:200px;
+
+}   */
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    bottom: 0;
+    /*sets it flush to the bottom of page*/
+    left: 0;
+}
+
+footer p {
+    color: rgb(95, 148, 15);
+}
+footer img {
+    width: 50px;
+    height: 100px;
+    background-color: rgba(0, 255, 0, 0.753);
+}
+.mainImg {
+    float: left;
+
+    /* Box-model */
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+
+  /* Positioning */
+  margin-right: 25px;
+}
+
+/***    contact.html    ***/
+form label {
+    margin-bottom: .75rem;
+}
+.form-group {
+    margin-bottom: .75rem;
+}
+/*use to clear float elements*/
+.clear {
+    clear: both;
+    overflow: auto;
+}
